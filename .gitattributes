@@ -1,0 +1,13 @@
+text eol=lf
+
+# These files are text and should be normalized (convert crlf to lf)
+* text=auto
+
+# These files should be treated as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ai binary
+*.psd binary
+$.exe binary

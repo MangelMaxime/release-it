@@ -1,0 +1,10 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net6.0
+
+nuget FSharp.Core >= 5 redirects: force
+nuget Argu
+nuget FsToolkit.ErrorHandling
+nuget Ionide.KeepAChangelog
+nuget SimpleExec

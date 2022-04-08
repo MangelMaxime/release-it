@@ -1,0 +1,33 @@
+STORAGE: NONE
+RESTRICTION: == net6.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Argu (6.1.1)
+      FSharp.Core (>= 4.3.2)
+      System.Configuration.ConfigurationManager (>= 4.4)
+    FParsec (1.1.1)
+      FSharp.Core (>= 4.3.4)
+    FSharp.Core (6.0.3) - redirects: force
+    FSLogger (5.1)
+      FSharp.Core (>= 5.0)
+    FsToolkit.ErrorHandling (2.13)
+      FSharp.Core (>= 4.7.2)
+    Ionide.KeepAChangelog (0.1.6)
+      FParsec (>= 1.1.1)
+      FSharp.Core (>= 6.0.2)
+      SemanticVersion (>= 2.1)
+    Microsoft.Win32.SystemEvents (6.0)
+    SemanticVersion (2.1)
+    SimpleExec (10.0)
+    System.Configuration.ConfigurationManager (6.0)
+      System.Security.Cryptography.ProtectedData (>= 6.0)
+      System.Security.Permissions (>= 6.0)
+    System.Drawing.Common (6.0)
+      Microsoft.Win32.SystemEvents (>= 6.0)
+    System.Security.AccessControl (6.0)
+    System.Security.Cryptography.ProtectedData (6.0)
+    System.Security.Permissions (6.0)
+      System.Security.AccessControl (>= 6.0)
+      System.Windows.Extensions (>= 6.0)
+    System.Windows.Extensions (6.0)
+      System.Drawing.Common (>= 6.0)
